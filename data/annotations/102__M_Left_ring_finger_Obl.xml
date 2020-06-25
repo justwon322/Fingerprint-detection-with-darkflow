@@ -1,0 +1,26 @@
+<annotation>
+	<folder>Altered-Easy</folder>
+	<filename>102__M_Left_ring_finger_Obl.BMP</filename>
+	<path>C:\darkflow\windows_v1.7.0\data\realfingerprint\socofing\SOCOFing\Altered\Altered-Easy\102__M_Left_ring_finger_Obl.BMP</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>96</width>
+		<height>103</height>
+		<depth>1</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fingerprint</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>3</xmin>
+			<ymin>16</ymin>
+			<xmax>90</xmax>
+			<ymax>98</ymax>
+		</bndbox>
+	</object>
+</annotation>

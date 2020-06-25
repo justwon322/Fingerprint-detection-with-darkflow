@@ -1,0 +1,4 @@
+-- 학습
+python flow --model ./cfg/yolov2.cfg --labels ./labels.txt --dataset ./data/dataset/ --annotation ./data/annotations/ --summary train --batch 3 --epoch 10 --lr 1e-06 --train --gpu 0.5 --load -1
+-- detection 진행 (json 파일로 생성됨)
+python flow --imgdir ./data/testset/ --model ./cfg/yolov2.cfg --load -1 --batch 1 --threshold 0.2 --labels labels.txt --json
